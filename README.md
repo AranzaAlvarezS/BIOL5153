@@ -1,5 +1,5 @@
 ## BIOL5153
 
 1. `CV.html`: CV rendered from R Markdown
-2. Added CV.md
-3. Added Assignment 3
+2. `CV.md`: Markdown version of CV
+3. `ass-3.md`: Assignment 3
