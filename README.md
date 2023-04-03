@@ -5,4 +5,4 @@
 3. `ass-3.md`:Assignment 3 final version was added after deleting previous version.
 4. `hello_world`: Introduction to Python file.
 5. `write_pinnacle_slurm.py`: Assignment 4- slurm script.
-6. `updated_pinnacle_slurm.py`: Assignemnt 5 - updated slurm script.
+6. `updated_pinnacle_slurm.py`: Assignment 5 - final script was updated after 04/03 class.
