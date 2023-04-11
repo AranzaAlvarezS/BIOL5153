@@ -18,13 +18,12 @@ args = parser.parse_args()
 with open(args.gff) as x: #with this open, do these things
     # loop over all lines in a file
     for line in x:
-        print(line)
-
-
-
-
-
-
-
-
-
+        line = line.strip("\n") # Strip line breaks from the current line
+        # loop over all values of every line in the file
+        for values in line: 
+            values = line.split('\t') # creates list of values (divided by \t) per line 
+            feature_type = str(values[2]) # assigns position of value list according to the feature type
+            feature_length = str(values[4]) # assigns position of value list according to the feature length
+            
+        print(feature_type, '\t', feature_length)    
+            
